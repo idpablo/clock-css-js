@@ -25,3 +25,16 @@
     border-radius: 6px;
     box-shadow: 1px 1px 15px #333 ;
   }
+.decorador{
+    @decorator-d: @relogio-raio / 20 * 5;
+    position: absolute;
+    width: @decorator-d;
+    height: @decorator-d;
+    background-color: spin(@relogio-base-color, 40%);
+    top: 50%;
+    left: 50%;
+    margin-top: -(@decorator-d / 2);
+    margin-left: -(@decorator-d / 2);
+    border-radius: @relogio-raio;
+    box-shadow: 1px 1px 20px #333 ; 
+  }
