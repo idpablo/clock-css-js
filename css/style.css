@@ -16,7 +16,7 @@
   transition: transform 1s;
   -webkit-transition: transform 1s;
 }
-.decorador {
+.decorator {
   position: absolute;
   width: 200px / 20 * 5;
   height: 200px / 20 * 5;
