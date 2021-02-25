@@ -16,15 +16,6 @@
   transition: transform 1s;
   -webkit-transition: transform 1s;
 }
-.pointer-seconds > div {
-  background-color: #FFF;
-  height: 6px;
-  width: 180px;
-  margin-left: 20px;
-  margin-top: -3px;
-  border-radius: 6px;
-  box-shadow: 1px 1px 15px #333;
-}
 .decorador {
   position: absolute;
   width: 200px / 20 * 5;
@@ -36,4 +27,31 @@
   margin-left: -25px;
   border-radius: 200px;
   box-shadow: 1px 1px 20px #333;
+}
+.pointer-seconds > div {
+  background-color: #FFF;
+  height: 6px;
+  width: 200px / 10 * 9;
+  margin-left: 200px / 10 * 1;
+  margin-top: 6px / 2;
+  border-radius: 6px;
+  box-shadow: 1px 1px 15px #333;
+}
+.pointer-minutes > div {
+  background-color: #8B8989;
+  height: 9px;
+  width: 200px / 10 * 8;
+  margin-left: 200px / 10 * 2;
+  margin-top: 9px / 2;
+  border-radius: 9px;
+  box-shadow: 1px 1px 8px #333;
+}
+.pointer-hours > div {
+  background-color: #362326;
+  height: 11px;
+  width: 200px / 10 * 7;
+  margin-left: 200px / 10 * 3;
+  margin-top: 11px / 2;
+  border-radius: 11px;
+  box-shadow: 1px 1px 8px #333;
 }
