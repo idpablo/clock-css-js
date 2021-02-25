@@ -53,5 +53,12 @@
   margin-left: 200px / 10 * 3;
   margin-top: 11px / 2;
   border-radius: 11px;
-  box-shadow: 1px 1px 8px #333;
+  box-shadow: 1px 1px 3px #333;
+}
+.clock {
+  display: inline-block;
+  margin: 10px auto;
+}
+body {
+  text-align: center;
 }
