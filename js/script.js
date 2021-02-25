@@ -1,7 +1,4 @@
-$(document).ready(function()
-{
-
-    setInterval(function()
+   setInterval(function()
     {
 
         var d = new Date();
@@ -9,8 +6,8 @@ $(document).ready(function()
         var graus_seconds = co * d.getSeconds() + (co + 15);
 
         $(".pointer-seconds").css({
-            "transform":"rotate(" +graus_seconds+ "deg)"
-        });
+            "transform": "rotate(" +graus_seconds+ "deg)"
+          });
 
         var co = 360 / 60;
         var graus_seconds = co * (m = d.getMinutes()) + (co * 15);
@@ -26,4 +23,3 @@ $(document).ready(function()
             "transform": "rotate(" +graus_seconds+"deg)"
         });
     }, 500);
-});
