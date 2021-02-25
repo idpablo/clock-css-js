@@ -1,6 +1,8 @@
-$(document).ready(function){
+$(document).ready(function()
+{
 
-    setInterval(function(){
+    setInterval(function()
+    {
 
         var d = new Date();
         var co = 360/60;
@@ -23,5 +25,5 @@ $(document).ready(function){
         $(".pointer-hours").css({
             "transform": "rotate(" +graus_seconds+"deg)"
         });
-    }, 500); //
+    }, 500);
 });
