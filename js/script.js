@@ -7,7 +7,7 @@ $(document).ready(function(){
         var co = 360/60;
         var graus_seconds = co * d.getSeconds() + (co * 15);
 
-        $(".pinter-seconds-move").css({
+        $(".pointer-seconds-move").css({
             "transform": "rotate(" +graus_seconds+ "deg)"
           });
 
