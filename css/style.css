@@ -29,29 +29,29 @@
   -webkit-transition: transform 1s;
 }
 .pointer-hours > div {
-  background-color: #362326;
+  background-color: #17c751;
   height: 11px;
   width: 140px;
-  margin-left: 200px / 10 * 3;
-  margin-top: 11px/2;
+  margin-left: 60px;
+  margin-top: 5.5px;
   border-radius: 11px;
-  box-shadow: 1px 1px 15px #333;
+  box-shadow: 1px 1px 3px #333;
 }
 .pointer-minutes > div {
   background-color: #8B8989;
   height: 9px;
   width: 160px;
-  margin-left: 200px / 10 * 2;
-  margin-top: 9px/2;
+  margin-left: 40px;
+  margin-top: 4.5px;
   border-radius: 9px;
-  box-shadow: 1px 1px 15px #333;
+  box-shadow: 1px 1px 8px #333;
 }
 .pointer-seconds > div {
   background-color: #FFF;
   height: 6px;
   width: 180px;
-  margin-left: 200px / 10 * 1;
-  margin-top: 6px/2;
+  margin-left: 20px;
+  margin-top: 3px;
   border-radius: 6px;
   box-shadow: 1px 1px 15px #333;
 }

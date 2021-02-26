@@ -9,7 +9,7 @@
 @pointer-minutes-height: 9px;
 @pointer-minutes-width: 8;
 
-@pointer-hours-color: #362326;
+@pointer-hours-color: #17c751;
 @pointer-hours-height: 11px;
 @pointer-hours-width: 7;
 
@@ -17,7 +17,6 @@
   transition: @params;
   -webkit-transition: @params;
 }
-
 .base {
   background-color: @base-color;
   width: @area-clock * 2;
@@ -43,7 +42,7 @@
 }
 
 .base-pointer {
-  width: @area-clock * 2;
+  width: (@area-clock * 2);
   position: absolute;
   top: 50%;
   height: 2px;
@@ -55,28 +54,28 @@
   background-color: @pointer-hours-color;
   height: @pointer-hours-height;
   width: (@area-clock / 10) * @pointer-hours-width;
-  margin-left: @area-clock / 10 * (10 - @pointer-hours-width);
-  margin-top: @pointer-hours-height/2;
+  margin-left: (@area-clock / 10) * (10 - @pointer-hours-width);
+  margin-top: (@pointer-hours-height/2);
   border-radius: @pointer-hours-height;
-  box-shadow: 1px 1px 15px #333;
+  box-shadow: 1px 1px 3px #333;
 }
 
 .pointer-minutes> div{
   background-color: @pointer-minutes-color;
   height: @pointer-minutes-height;
   width: (@area-clock / 10) * @pointer-minutes-width;
-  margin-left: @area-clock / 10 * (10 - @pointer-minutes-width);
-  margin-top: @pointer-minutes-height/2;
+  margin-left: (@area-clock / 10) * (10 - @pointer-minutes-width);
+  margin-top: (@pointer-minutes-height/2);
   border-radius: @pointer-minutes-height;
-  box-shadow: 1px 1px 15px #333;
+  box-shadow: 1px 1px 8px #333;
 }
 
 .pointer-seconds> div{
   background-color: @pointer-seconds-color;
   height: @pointer-seconds-largura;
   width: (@area-clock / 10) * @pointer-seconds-comprimento;
-  margin-left: @area-clock / 10 * (10 - @pointer-seconds-comprimento);
-  margin-top: @pointer-seconds-largura/2;
+  margin-left: (@area-clock / 10) * (10 - @pointer-seconds-comprimento);
+  margin-top: (@pointer-seconds-largura/2);
   border-radius: @pointer-seconds-largura;
   box-shadow: 1px 1px 15px #333;
 }
