@@ -11,11 +11,12 @@
     <link href="css/style.css" rel="stylesheet">
     
     <script type="text/javascript" src="js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
+    <script type="module" src="js/jquery.slim.min.js"></script>
+   
+
 
 <body>
-    <figure class="clock">
+    <figure class="clock ">
         <div class="base">
             <div class="pointer-hours base-pointer" id="ph">
                 <div></div>
@@ -23,10 +24,10 @@
             <div class="pointer-minutes base-pointer" id="pm">
                 <div></div>
             </div>
-            <div class="pointer-seconds base-pointer" id="ps">
+            <div class="pointer-seconds base-pointer transition" id="ps">
                 <div></div>
             </div>
-            <div class="decorator transition"></div>
+            <div class="decorator"></div>
         </div>
     </figure>
 

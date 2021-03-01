@@ -1,4 +1,4 @@
-import {$} from "jQuery";
+import {$,jQuery} from 'jquery';
 
 $(document).ready(function () {
 
