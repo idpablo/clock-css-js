@@ -5,12 +5,12 @@
   border-radius: 400px;
   position: relative;
   background-image: linear-gradient(#111a1a, #008B8B);
-  box-shadow: 5px 5px 20px #555;
+  box-shadow: 5px 5px 20px #777;
 }
 .decorator {
   position: absolute;
-  width: 200px / 20 * 5;
-  height: 200px / 20 * 5;
+  width: 50px;
+  height: 50px;
   background-color: #292c25;
   top: 50%;
   left: 50%;
@@ -23,36 +23,38 @@
   width: 400px;
   position: absolute;
   top: 50%;
-  left: 50%;
   height: 2px;
   margin-top: -1px;
-  transition: 1s;
+  transition: transform 1s;
   -webkit-transition: transform 1s;
 }
 .pointer-hours > div {
   background-color: #17c751;
   height: 11px;
-  width: 200px / 10 * 7;
-  margin-left: 193px;
-  margin-top: 11px/2;
+  width: 100px;
+  margin-left: 70px;
+  margin-top: 2.5;
+  align-items: center;
   border-radius: 11px;
   box-shadow: 1px 1px 3px #333;
 }
 .pointer-minutes > div {
   background-color: #8B8989;
   height: 9px;
-  width: 200px / 10 * 8;
-  margin-left: 192px;
-  margin-top: 9px/2;
+  width: 140px;
+  margin-left: 30px;
+  margin-top: 3.5;
+  align-items: center;
   border-radius: 9px;
-  box-shadow: 1px 1px 8px #333;
+  box-shadow: 1px 1px 3px #333;
 }
 .pointer-seconds > div {
   background-color: #FFF;
   height: 6px;
-  width: 200px / 10 * 9;
-  margin-left: 191px;
-  margin-top: 6px/2;
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 4;
+  align-items: center;
   border-radius: 6px;
   box-shadow: 1px 1px 15px #333;
 }
